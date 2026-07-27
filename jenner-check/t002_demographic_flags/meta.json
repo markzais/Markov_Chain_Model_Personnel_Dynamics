@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_demographic_flags",
+  "source_file": "Zais_Data_20131105.sas",
+  "source_blob_sha": "87ff4fbcbe66027df3975b956409942c09cb8015",
+  "source_commit": "34c540a888fd1385806a978d060d08b10891e1f0",
+  "notes": "Zais_Inventory_Losses2 DATA step (orig lines 206-243): one-hot demographic indicators from SEX_CATEGORY_CD/MARST_CD/REDCAT_CD, MO_SINCE_DEPLOY via floor((TRANS_DT-DEPL_DT)/30.5), DEPLOY flag, AGE via INT(YRDIF()), EXPER via ROUND(MSV_QY/12,.1), TOE binary. Original input is a PROC SQL merge of two D:\ tables; replaced by a 6-row inline stand-in of the same columns."
+}

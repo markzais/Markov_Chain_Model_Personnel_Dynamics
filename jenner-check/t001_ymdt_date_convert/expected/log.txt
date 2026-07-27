@@ -1,0 +1,24 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option INVALIDDATA changed to ..
+NOTE: Option PS changed to 255.
+NOTE: Option LS changed to 100.
+NOTE: DATA Zais_Inv_Condensed3
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote Zais_Inv_Condensed3 (8 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA Zais_Inv_Condensed_Dates
+
+
+NOTE: Read 8 rows from Zais_Inv_Condensed3.
+NOTE: Wrote Zais_Inv_Condensed_Dates (8 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=Zais_Inv_Condensed_Dates
+
+NOTE: PROC PRINT completed: 8 observations printed, 5 variables
