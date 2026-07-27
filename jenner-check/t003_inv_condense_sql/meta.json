@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_inv_condense_sql",
+  "source_file": "Zais_Data_20131105.sas",
+  "source_blob_sha": "87ff4fbcbe66027df3975b956409942c09cb8015",
+  "source_commit": "34c540a888fd1385806a978d060d08b10891e1f0",
+  "notes": "Inventory-condense PROC SQL (orig lines 14-22: select distinct projection, where YM_DT>=0, multi-key order by) plus SSN->numeric DATA step (orig lines 24-32: verify() drops non-digit SSN, pay-grade in (1 2 3)->4 recode, rename SSN=EP_SSN). Source Army.Master_Inv_200610_200909 libname table replaced by a 5-row inline stand-in (one duplicate + one invalid SSN) of the projected columns."
+}

@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-27T11:01:44Z",
+  "_captured_run_id": "r_51d452d39ab74d66a568b9e57594f172",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 8 rows from DATALINES.",
+    "NOTE: Wrote Zais_Inv_Condensed_Dates (8 rows, 6 columns).",
+    "NOTE: PROC PRINT completed: 8 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

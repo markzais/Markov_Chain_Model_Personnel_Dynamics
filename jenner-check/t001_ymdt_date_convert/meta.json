@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_ymdt_date_convert",
+  "source_file": "Zais_Data_20131105.sas",
+  "source_blob_sha": "87ff4fbcbe66027df3975b956409942c09cb8015",
+  "source_commit": "34c540a888fd1385806a978d060d08b10891e1f0",
+  "notes": "Zais_Inv_Condensed_Dates DATA step (orig lines 68-194): numeric YM_DT (YYYYMM) -> SAS date via PUT/COMPRESS/SUBSTR/catt/INPUT DATE9., month-name mapping, CMF_CD->CMF_TEXT lookup, integer DATE_INDEX. External Army/Zais libname datasets replaced by an 8-row inline inventory of the same column shape; DATETXT_PREV block trimmed (feeds downstream merge only)."
+}

@@ -1,0 +1,7 @@
+              Condensed inventory: distinct projection, SSN->numeric, pay-grade recode
+
+  Obs   YM_DT     EP_SSN  MSV_QY  PAY_GRADE_ID  PMOS_CD  CMF_CD
+    1  200610  100000001      96             4  11B          11
+    2  200611  100000002      48             4  68W          68
+    3  200701  100000004      36             4  19D          19
+

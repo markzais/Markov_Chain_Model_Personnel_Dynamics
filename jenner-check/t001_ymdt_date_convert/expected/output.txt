@@ -1,0 +1,12 @@
+                       YM_DT to SAS date conversion + CMF label + DATE_INDEX
+
+  Obs   YM_DT  PMOS_CD  GREGORIAN_DT         CMF_TEXT  DATE_INDEX
+    1  200611  11B         15OCT2006  INFANTRY                 82
+    2  200612  68W         15NOV2006  MEDICAL CORPS            83
+    3  200701  13B         15DEC2006  FIELD ARTILLERY          84
+    4  200702  19D         15JAN2007  ARMOR                    85
+    5  200703  88M         15FEB2007  TRANSPORTATION           86
+    6  200704  92A         15MAR2007  OTHER                    87
+    7  200705  18B         15APR2007  SPECIAL FORCES           88
+    8  200901  31B         15DEC2008  MP                      108
+
